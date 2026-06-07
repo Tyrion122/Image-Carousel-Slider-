@@ -1,8 +1,8 @@
 const pizzaImg = [
-    "/images/Chicago.jpg",
-    "/images/margherita.jpg",
-    "/images/neapolitan.jpg",
-    "/images/pepperoni.jpg"
+    "images/Chicago.jpg",
+    "images/margherita.jpg",
+    "images/neapolitan.jpg",
+    "images/pepperoni.jpg"
 ]
 let num = 0;
 let image = document.getElementById("image");
