@@ -7,13 +7,10 @@ const pizzaImg = [
 let num = 0;
 let image = document.getElementById("image");
 
-//добавити перевірку на кількість фото і щоб автоматично додавались крапки (pizzaImg.length)
 let dotsText = document.getElementById("dotsText");
 let dots = [
 ]
 
-//dots[0].style.fontSize="24px";
-//
 for (let d=0; pizzaImg.length>d; d++){
     dotsText.innerHTML+=`<span>.</span>`;
 }
@@ -62,4 +59,3 @@ if(num==0){document.getElementById("Previous").disabled=true;}
 window.onload = ()=>{
     dots[0].style.fontSize="24px";
 }
-//window onload додати крапку першу і ще щось до нього перенести
